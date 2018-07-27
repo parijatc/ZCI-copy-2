@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BEF2BB8210AFC3C008E814A /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 1BEF2BB7210AFC3B008E814A /* Fastfile */; };
 		A60A2D711FAB2FB500E8DA9F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */; };
 		A60A2D721FAB2FB500E8DA9F /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6309F372029B99F009B3258 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = A6309F362029B99F009B3258 /* Jenkinsfile */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1BEF2BB7210AFC3B008E814A /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
 		A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = SOURCE_ROOT; };
 		A6309F362029B99F009B3258 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		A65C51971F960CF60055C5B9 /* JenkinsTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A6309F362029B99F009B3258 /* Jenkinsfile */,
+				1BEF2BB7210AFC3B008E814A /* Fastfile */,
 				A65C51991F960CF60055C5B9 /* JenkinsTesting */,
 				A65C51B11F960CF60055C5B9 /* JenkinsTestingTests */,
 				A65C51BC1F960CF60055C5B9 /* JenkinsTestingUITests */,
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEF2BB8210AFC3C008E814A /* Fastfile in Resources */,
 				A65C51A81F960CF60055C5B9 /* LaunchScreen.storyboard in Resources */,
 				A6309F372029B99F009B3258 /* Jenkinsfile in Resources */,
 				A65C51A51F960CF60055C5B9 /* Assets.xcassets in Resources */,

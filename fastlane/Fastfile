@@ -18,10 +18,10 @@ default_platform(:ios)
 platform :ios do
 
 
-    desc "Runs all the tests"
-    lane :test do
-        scan
-    end
+   # desc "Runs all the tests"
+    #lane :test do
+     #   scan
+    #end
 
 
     desc "Build app for beta distribution"
