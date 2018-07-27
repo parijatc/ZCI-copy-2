@@ -370,10 +370,10 @@
 				);
 				INFOPLIST_FILE = JenkinsTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jenkinsoffshore.jenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbsystel.JenkinsFastlanePipeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c7959e5e-cdd0-475d-a47e-e99228b60e3e";
-				PROVISIONING_PROFILE_SPECIFIER = jenkinsoffshoreprovisioningprofile;
+				PROVISIONING_PROFILE = "b2ae0116-d08f-473b-ad03-61be162e2079";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsFastlanePipeTestPratibha;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -394,10 +394,10 @@
 				);
 				INFOPLIST_FILE = JenkinsTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jenkinsoffshore.jenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbsystel.JenkinsFastlanePipeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c7959e5e-cdd0-475d-a47e-e99228b60e3e";
-				PROVISIONING_PROFILE_SPECIFIER = jenkinsoffshoreprovisioningprofile;
+				PROVISIONING_PROFILE = "b2ae0116-d08f-473b-ad03-61be162e2079";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsFastlanePipeTestPratibha;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
