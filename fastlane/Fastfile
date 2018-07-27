@@ -30,7 +30,7 @@ platform :ios do
         sh("security unlock-keychain -p niit@123 /Users/parijat/Library/Keychains/login.keychain-db", log: false)
         setup_jenkins
         gym(
-            scheme: "JenkinsFastlanePipeTest",
+            scheme: "JenkinsTesting",
             export_method: "app-store",
             export_options: {
                 provisioningProfiles: {
