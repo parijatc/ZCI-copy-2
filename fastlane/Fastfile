@@ -27,7 +27,7 @@ platform :ios do
     desc "Build app for beta distribution"
     lane :build do
 
-        sh("security unlock-keychain -p niit@123 /Users/parijat/Library/Keychains/login.keychain-db", log: false)
+        sh("security unlock-keychain -p niit /Users/parijat/Library/Keychains/login.keychain-db", log: false)
         setup_jenkins
         gym(
             scheme: "JenkinsTesting",
