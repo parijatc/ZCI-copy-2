@@ -82,7 +82,7 @@ stage('post-build') {
 
 def fastlane(lane) {
     def env = [
-        "PATH+LOCAL=/usr/local/bin/",
+        "PATH+LOCAL=/Users/parijat/.rvm/gems/ruby-2.5.1/bin/",
         //"http_proxy=http://dmzproxy.tech.rz.db.de:8080",
         //"https_proxy=http://dmzproxy.tech.rz.db.de:8080",
         "LC_ALL=en_US.UTF-8",
