@@ -1,4 +1,4 @@
-node {
+node('iOS') {
 
     //Wipe the workspace so that we are building completely clean
     //deleteDir()
